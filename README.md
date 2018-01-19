@@ -1,5 +1,5 @@
 # droid-convert
-Script to convert a DROID CSV export into the template required for transfer of digital material to the National Archives.
+Script to convert a DROID CSV export into the template required for transfer of digital material to The National Archives.
 # About the script
 This script takes a DROID csv export and transforms it into the structure required for digital transfer to The National Archives. 
 It retains the five columns from the DROID CSV export which are required for the metadata and renames them to their appropriate names. 'URI' = ‘identifier’,  'NAME'=‘file_name’, 'TYPE'=’folder‘, 'LAST_MODIFIED'=’date_last_modified’, 'SHA256_HASH'=’checksum’.
