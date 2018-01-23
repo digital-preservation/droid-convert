@@ -12,6 +12,7 @@ The script requires the two files – droidConvert.bat and droidConvert.py.
 The script requires Python 3 with the pandas module included. It has been tested using Python 3.5.4, Python 3.6.4 and pandas 0.20.3, pandas 0.21.1
 A version of python including pandas can be installed using anaconda https://www.anaconda.com/download/
 It has been tested on a Windows 7 and Windows 10 environment.
+An exe version of this file which does not require Python to be installed can be downloaded here - http://www.nationalarchives.gov.uk/documents/information-management/droid-convert.zip
 # Running the script
 1.	Click on the droidConvert.bat file to start the script.
 
