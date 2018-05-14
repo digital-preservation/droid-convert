@@ -31,7 +31,7 @@ def add_columns_desc(): #will add columns in for metadata with descriptions and 
     add_csv ['description_public'] =''
     add_csv ['description_alternate'] =''
     add_csv ['rights_copyright'] = 'Crown Copyright'
-    add_csv ['legal_status'] = 'Public Record'
+    add_csv ['legal_status'] = 'Public Record(s)'
     add_csv ['held_by'] = 'The National Archives, Kew'
     add_csv ['description'] = ''
     
@@ -44,7 +44,7 @@ def add_columns_nodesc(): #will add columns in for metadata without descriptions
     add_csv ['title_public'] = ''
     add_csv ['title_alternate'] =''
     add_csv ['rights_copyright'] = 'Crown Copyright'
-    add_csv ['legal_status'] = 'Public Record'
+    add_csv ['legal_status'] = 'Public Record(s)'
     add_csv ['held_by'] = 'The National Archives, Kew'
     
 def open_closure_desc(): #if files are open populates these fields for metadata with descriptions
